@@ -21,6 +21,7 @@ export default function Home() {
     "React",
     "TypeScript",
     "Tailwind CSS",
+    "Chart.js",
     "PHP (Symfony)",
     "Java",
     "MySQL",
@@ -30,6 +31,8 @@ export default function Home() {
     "Bootstrap",
     "VS Code",
     "PHPStorm",
+    "JetBrains Toolbox",
+    "Apache NetBeans",
     "Scrum",
     "JSON",
     "AI (les)",
@@ -43,6 +46,18 @@ export default function Home() {
   ];
 
   const projects = [
+    {
+      title: "WorkSpace",
+      desc: "Next.js projectplanning platform met scrumboard en sprintdashboard.",
+      tech: "Next.js, React, TypeScript, Tailwind CSS, MySQL, Prisma",
+      role: "Groepsproject / Full-stack",
+    },
+    {
+      title: "RouteToHBO",
+      desc: "Samen met SD- en IT-studenten een AI studiekeuzeplatform ontwikkeld.",
+      tech: "HTML, CSS, JavaScript, Canva - AI",
+      role: "Groepsproject",
+    },
     {
       title: "SDG Dashboard",
       desc: "Interactief dashboard voor SDG-statistieken.",
@@ -224,6 +239,15 @@ export default function Home() {
                 <strong>Duur:</strong> ±1200 uur (8 uur per dag - 5 dagen per week - 40 uur per week)
               </p>
             </div>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-bold mb-3 flex items-center gap-2">
+              <Calendar size={18} /> Portfolio
+            </h2>
+            <a href="https://linkedin.com/in/bercem-yildirim" target="_blank">
+             <FaLinkedin size={22} />
+            </a>
           </section>
 
           <section>
